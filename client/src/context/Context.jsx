@@ -26,7 +26,7 @@ const ContextProvider = ({ children }) => {
 
   const fetchData = async(prompt) => {
     try {
-      const res = await fetch("http://localhost:8000/api/prompt", {
+      const res = await fetch("https://gemini-clone-server.vercel.app/api/prompt", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: prompt }),
@@ -94,3 +94,4 @@ const ContextProvider = ({ children }) => {
 };
 
 export default ContextProvider;
+
