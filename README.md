@@ -2,17 +2,37 @@
 # Gemini Clone (Frontend React)
 
 A frontend clone of Gemini built with React, simulating a basic chat interface with Gemini API integration. This project is focused on UI/UX and frontend experience, with a minimal backend to forward API requests. Only text-based prompts are supported.
+
 ## Features
-- Modern React-based UI for chat interface
+- Modern **React-based** UI for chat interface
 
-- Text prompt support (no images)
+- **Text** prompt support (no images)
 
-- Shows recent prompts and responses
+- Shows **recent** **prompts** and **responses**
 
-- Minimal backend for request forwarding to Gemini API
+- **Minimal backend** for request forwarding to Gemini API
 
-- Responsive design for desktop and mobile
+- **Responsive design** for desktop and mobile
 
+
+## Upcoming Features
+
+- Support for **image prompts**
+  
+- **User authentication** and **profile management**
+  
+- **Conversation history storage** with database
+  
+- Advanced **chatbot features** (contextual replies, suggestions)
+  
+- Improved **error handling** and loading states
+
+
+## Technologies Used
+
+- **Frontend:** React, CSS, HTML
+- **Backend:** Node.js, Express (for API proxy)
+- **API:** Gemini API
 
 ## Demo
 
@@ -26,6 +46,18 @@ Install my-project with npm
   git clone https://github.com/AryanHulawale/Gemini-Clone.git
   cd gemini-clone
 ```
+## Project Structure
+
+  gemini-clone/
+  │
+  ├── client/ # React frontend
+  │ ├── src/
+  │ └── public/
+  │
+  ├── server/ # Minimal Node.js backend
+  │ └── server.js
+  │
+  └── README.md
     
 ## Deployment
 
