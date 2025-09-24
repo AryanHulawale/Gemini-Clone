@@ -46,6 +46,19 @@ Install my-project with npm
   git clone https://github.com/AryanHulawale/Gemini-Clone.git
   cd gemini-clone
 ```
+## Project Structure
+```
+  gemini-clone/
+  │
+  ├── client/ # React frontend
+  │ ├── src/
+  │ └── public/
+  │
+  ├── server/ # Minimal Node.js backend
+  │ └── server.js
+  │
+  └── README.md
+```
     
 ## Deployment
 
