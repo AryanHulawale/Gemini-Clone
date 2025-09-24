@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import main from "../client/src/config/gemini.js";
+import main from "./config/gemini.js";
 
 const app = express()
 app.use(express.json());
@@ -21,4 +21,5 @@ app.post("/api/prompt", async (req, res) => {
 const PORT = 8000
 app.listen(PORT, () => {
     console.log("App is Listening")
+
 })
